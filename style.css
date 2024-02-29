@@ -1,0 +1,54 @@
+body{
+background-image: url(images/amogos.jpg);
+background-repeat: no-repeat;
+display: flex;
+
+}
+.overlay{
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(88, 85, 85, 0.24);
+    width: 400px;
+    height: 650px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    border-radius: 5px;
+}
+#username{
+    width: 260px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(148, 83, 173);
+    
+}
+#password{
+    width: 260px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(148, 83, 173);
+    margin-top: 10px;
+    
+}
+.login{
+    width: 250px;
+    height:40px;
+    background-color:rgb(255, 255, 255);
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 30px;
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.25s;
+    color: black;
+
+}
+.login:hover{
+    height: 45px;
+    background-color:rgba(0, 0, 0, 0.904);
+    color:rgb(255, 255, 255);
+}
